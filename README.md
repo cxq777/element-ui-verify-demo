@@ -1,4 +1,4 @@
-# verify-test
+# element-ui-verify-demo
 
 ## Project setup
 ```
