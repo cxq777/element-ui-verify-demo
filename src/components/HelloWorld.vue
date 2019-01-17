@@ -24,7 +24,7 @@
       <el-form-item label="人数" prop="peopleCount" v :int-min="0">
         <el-input v-model="ruleForm.peopleCount"></el-input>
       </el-form-item>
-      <el-form-item label="金额" prop="amount" r :num-max="0">
+      <el-form-item label="金额" prop="amount" r :num-min="0" :num-d="2">
         <el-input v-model="ruleForm.amount"></el-input>
       </el-form-item>
       <el-form-item label="QQ号" prop="qq" v qq>
